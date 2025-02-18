@@ -9,6 +9,6 @@ public class UserService {
 
     }
     public  boolean loginUser(String username,String password){
-        return userDAO.registerUser(username,password);
+        return userDAO.loginUser(username,password);
     }
 }
